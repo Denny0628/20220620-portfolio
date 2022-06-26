@@ -3,6 +3,9 @@ html,body{
   margin: 0;
   display: flex;
   justify-content: center;
+  background-image: url(../image/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .wrap{
