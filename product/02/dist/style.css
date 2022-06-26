@@ -1,0 +1,115 @@
+*{
+  font-family: 微軟正黑體;
+  letter-spacing: 2px;
+  color: #ECB1AC;
+    
+  
+  font-weight: 100px;
+  
+}
+
+html,body{
+  width: 100%;
+  height:100%;
+  margin: 0;
+  background-image: url(../image/bg.jpeg);
+  background-size: cover;
+  
+  
+}
+body{
+  border-top: 20px solid #0c2534;
+  border-bottom: 20px solid #0c2534;
+  box-sizing: border-box;
+  background-color: #625b57;
+  
+}
+
+.namecard{
+  right: 40px;
+  width: 350px;
+  height: 200px;
+  margin: auto;
+  margin-top: 200px;
+  padding: 20px;
+  position: relative;
+  background-color: transparent;
+  overflow:hidden;
+  border-radius: 6px;
+  box-shadow: 0px 0px 15px #999;
+   transition: 0.5s;
+}
+
+h3{
+  position: fixed;
+  top: 10px;
+  width: 100%;
+  text-align: center;
+}
+h2{
+  font-weight: 800;
+  font-size: 28px;
+}
+span{
+  font-size: 11px;
+}
+h5{
+  color: #b399ff;
+}
+p{
+  font-size: 11px;
+  line-height: 22px;
+}
+.circle{
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  position: absolute;
+
+}
+
+/* .pikachu{
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  right: 100px;
+  bottom: 0px; */
+  
+/*   transition: 1s;
+  background-image: url(https://i.imgur.com/bdA1dA1.png);
+  
+} */
+.pikachu{
+  width: 100px;
+  height: 100px;
+  left: 298px;
+  bottom: -80px;
+  position: absolute;
+  transition: 3s;
+}
+
+
+.ball{
+  width: 60px;
+  height: 60px;
+  right: -35px;
+  top: -35px;
+  transition: 2s;
+  transition-delay: 0.5;
+  position: absolute;
+  
+}
+.namecard:hover{
+  background-color: #fffdd0;
+  transition: 1s;
+  transform: translate(-5px,-5px);
+  box-shadow: 10px 10px 30px #3f3f3f;
+}
+.namecard:hover .pikachu{
+  transform: translate(0px,-63px);
+  transition: 1s;
+}
+.namecard:hover .ball{
+  transform: translate(-30px,30px) scale(1.5);
+ 
+}

@@ -1,0 +1,157 @@
+*{
+/* 輪廓 */
+/* outline: 1px solid #000; */
+}
+
+body{
+    font-family: '微軟正黑體';
+    color: #fff;
+    background-color: #d1d1d1;
+
+    /* 避免文字被選取 us */
+    user-select: none;
+}
+
+
+/* 網頁主要內容 */
+.wrap{
+      /* 主要內容寬度不超過1200px，變小會自動縮小 maw   */
+    max-width: 1200px;
+
+    /* 中間區塊水平置中 m0-a */
+    margin: 0 auto;
+    /* 內距 */
+    padding:  20px;
+}
+
+/* 標題與創作者區塊 */
+.header{
+    /* 文字置 中 tac */
+    text-align: center;
+}
+
+/* Web Design */
+.type{
+    /* 絕對定位 */
+    position: absolute;
+    
+    /* 外型 */
+    font-size: 14px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 1px solid #999;
+
+    /* 動畫時間 trsdu */
+    transition-duration: 0.5s;
+}
+
+/* Web Design滑鼠移入效果 */
+.type:hover{
+    background-color: #fff;
+}
+
+/* 作品名稱 */
+.show{
+    /* 垂直顯示 wm */
+    /* vertical(垂直)，lr( 左到右) */
+    writing-mode: vertical-lr;
+
+    /* 水平置中 */
+    margin-left: auto;
+    margin-right: auto;
+
+    font-size: 80px;
+    letter-spacing: 15px;
+
+    /* 離上方距離 */
+    padding-top: 10%;
+}
+
+/* 創作者資訊 */
+.creator{
+    font-size: 20px;
+    letter-spacing: 2px;
+    /* 字體粗細，範圍是100(細) - 900(粗) */
+    font-weight: 300;
+
+    /* 離上下方距離設定 */
+    margin-top: 5%;
+    margin-bottom: 30px;
+}
+/* 作品列表 */
+ul{
+    /* 去除預設樣式 lisn，左邊內距 pl */
+    list-style: none;
+    padding-left: 0px;
+
+    /* 水平並排 df，水平置中 jcc */
+    display: flex;
+    justify-content: center;
+}
+/* 作品項目 */
+li{
+    /* 基礎樣式 */
+    width: 30%;
+    height: 230px;
+    border-radius: 10px;
+    border: 1px solid #222;
+    margin-right: 30px;
+
+    /* 動畫完成時間 trsdu */
+
+}
+/* 作品項目-滑鼠移入效果 */
+li:hover{
+    background-color: rgba(207, 207, 207, 0.692);
+    transition-duration: 0.5s;
+    
+}
+/* 超連結內容 */
+a{
+    /* 去除文字預設樣式 tdn */
+text-decoration: none;
+color: #fff;
+
+display: flex;
+/* 更改排列方向為上下 fxdc */
+flex-direction: column;
+
+/* 水平、垂直置中 jcc、aic */
+justify-content: center;
+align-items: center;
+
+/* 增加超連結範圍高度 */
+
+height: 100%;
+
+}
+a:hover{
+    color: #222;
+    transition-duration: 0.8s;
+
+}
+
+/* 作品標題 */
+h4{
+    /* 字體大小 fz  */
+    font-size: 28px;
+}
+
+/* 作品介紹 */
+P{
+    /* 字體大小 fz  */
+    font-size: 14px;
+    font-weight: 100;
+}
+/* 放網頁內容的地方 */
+body{
+     
+    /* 背景圖片 bgi */    /* url()裡面載入圖片位址*/
+   background-image:url(../image/bg.jpeg);
+    
+   /* 背景圖片顯示方式 bgzc */   /* cover = 上下左右撐滿 */
+   background-size:cover;
+   
+}
+
+
