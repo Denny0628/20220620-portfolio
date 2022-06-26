@@ -48,6 +48,8 @@ body{
 /* Web Design滑鼠移入效果 */
 .type:hover{
     background-color: #fff;
+    color: #222;
+
 }
 
 /* 作品名稱 */
